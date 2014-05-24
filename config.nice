@@ -1,0 +1,11 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/usr/local/apache2" \
+"--with-mpm=worker" \
+"--enable-so" \
+"--enable-deflate" \
+"--enable-ssl" \
+"$@"
